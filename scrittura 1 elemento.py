@@ -10,9 +10,8 @@ def readFile(fileName):
 
   return out
 
-lista = readFile('./input1.txt')
-
 #PROGRAMMA
+lista = readFile('./input1.txt')
 somma = 0
 for numero in lista:
   somma += numero
